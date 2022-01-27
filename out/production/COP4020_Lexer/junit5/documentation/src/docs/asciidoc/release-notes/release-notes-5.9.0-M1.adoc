@@ -1,0 +1,68 @@
+[[release-notes-5.9.0-M1]]
+== 5.9.0-M1
+
+*Date of Release:* ❓
+
+*Scope:* ❓
+
+For a complete list of all _closed_ issues and pull requests for this release, consult the
+link:{junit5-repo}+/milestone/58?closed=1+[5.9 M1] milestone page in the JUnit repository
+on GitHub.
+
+
+[[release-notes-5.9.0-M1-junit-platform]]
+=== JUnit Platform
+
+==== Bug Fixes
+
+* ❓
+
+==== Deprecations and Breaking Changes
+
+* `ConfigurationParameters.size()` has been deprecated.
+
+==== New Features and Improvements
+
+* `ConfigurationParameters` has now a `keySet()` method allowing to retrieve
+  all configuration parameter keys.
+* New `IterationSelector` for selecting a subset of a test's or container's iterations.
+* JUnit OSGi bundles now contain `engine` and `launcher` requirements ensuring that at resolution time a fully running set of dependencies are calculated avoiding the need for these to be manually specified.
+
+
+[[release-notes-5.9.0-M1-junit-jupiter]]
+=== JUnit Jupiter
+
+==== Bug Fixes
+
+* ❓
+
+==== Deprecations and Breaking Changes
+
+* ❓
+
+==== New Features and Improvements
+
+* Add support for `IterationSelector` to select a subset of the invocations of
+  parameterized or dynamic tests.
+* Add support for `MATCH_NONE` mode in `EnumSource` that selects only those enum constants
+  whose names match none of the supplied patterns.
+* A new extension `TestInstancePreConstructCallback` called prior to a test instance construction
+  (symmetric extension to `TestInstancePreDestroyCallback`).
+
+
+[[release-notes-5.9.0-M1-junit-vintage]]
+=== JUnit Vintage
+
+==== Bug Fixes
+
+* ❓
+
+==== Deprecations and Breaking Changes
+
+* ❓
+
+==== New Features and Improvements
+
+* `@TempDir` now includes a cleanup mode attribute for preventing a temporary directory
+  from being deleted after a test. The default cleanup mode can be configured via a
+  configuration parameter.
