@@ -4,8 +4,8 @@
     <list default="true" id="6388612e-47ff-4c18-bcdc-56b31d898f2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ufl/cise/plc/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ufl/cise/plc/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/ufl/cise/plc/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ufl/cise/plc/Token.java" afterDir="false" />
     </list>
+    <list id="ad2eba56-94ff-42b5-acd3-451ec3c06d89" name="Changes by jennywang" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
